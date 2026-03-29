@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Famous Brian | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">FB<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Famous <span>Brian</span></h1>
+      <div class="roles">
+        <span class="role-tag">Full Stack Developer</span>
+        <span class="role-tag">Python Programmer</span>
+        <span class="role-tag">IT Support</span>
+        <span class="role-tag">Graphic Designer</span>
+      </div>
+      <p class="hero-sub">Building efficient digital solutions & turning ideas into reality.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <i class="fas fa-code"></i>
+        </div>
+      </div>
+      <div class="floating-badge b1"><i class="fab fa-python"></i> Python</div>
+      <div class="floating-badge b2"><i class="fas fa-globe"></i> Web Dev</div>
+      <div class="floating-badge b3"><i class="fas fa-network-wired"></i> Networking</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2>About <span>Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-card">
+        <i class="fas fa-user-circle about-icon"></i>
+        <p>I am Brian, a Full-Stack Developer, Python programmer, and IT support specialist with a strong passion for technology. I enjoy building efficient digital solutions, programming, troubleshooting technical issues, and helping people make the most of their systems.</p>
+        <p>As an IT enthusiast, I am always eager to learn new technologies and continuously improve my skills in the evolving tech world.</p>
+        <div class="about-stats">
+          <div class="stat"><span>4+</span><p>Roles</p></div>
+          <div class="stat"><span>∞</span><p>Passion</p></div>
+          <div class="stat"><span>24/7</span><p>Learning</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2>My <span>Skills</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fab fa-python"></i><p>Python</p></div>
+      <div class="skill-card"><i class="fas fa-database"></i><p>SQL</p></div>
+      <div class="skill-card"><i class="fab fa-java"></i><p>Java</p></div>
+      <div class="skill-card"><i class="fab fa-html5"></i><p>HTML</p></div>
+      <div class="skill-card"><i class="fas fa-laptop-code"></i><p>Web Design & Dev</p></div>
+      <div class="skill-card"><i class="fas fa-network-wired"></i><p>Networking</p></div>
+      <div class="skill-card"><i class="fas fa-server"></i><p>Data Management</p></div>
+      <div class="skill-card"><i class="fas fa-paint-brush"></i><p>Graphic Design</p></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2>My <span>Projects</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-top">
+          <div class="project-icon"><i class="fas fa-satellite-dish"></i></div>
+          <div class="project-links">
+            <a href="https://maisibabrian51-create.github.io/Solana-/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>SOL-SENTINEL</h3>
+        <p>Real-time Solana blockchain whale monitoring system that tracks large transactions and sends instant alerts.</p>
+        <div class="tech-tags">
+          <span>Python</span>
+          <span>Solana Web3.js</span>
+          <span>Telegram Bot API</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2>Get In <span>Touch</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="contact-content">
+      <p class="contact-sub">Have a project in mind or need IT support? Let's talk!</p>
+      <div class="contact-cards">
+        <a href="mailto:famousyobby@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>famousyobby@gmail.com</span>
+        </a>
+        <a href="https://github.com/maisibabrian51" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>maisibabrian51</span>
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="mailto:famousyobby@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/maisibabrian51" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed & Built by <span>Famous Brian</span> &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
